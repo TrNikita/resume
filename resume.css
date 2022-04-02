@@ -155,6 +155,60 @@ body{
     text-shadow: 1px 2px 3px black;
 }
 
+.form{
+    display: block;
+    text-align: center;
+    font-size: 80%;
+    background: rgba(48, 41, 90, 0.3);
+}
+
+.form h2{
+    margin-bottom: 2px;
+}
+.connect {
+    display: flex;
+    box-sizing:content-box;
+}
+
+.connect label{
+    padding: 5px;
+    text-align: center;
+}
+.connect ::placeholder{
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 100%;
+}
+.connect input,
+.connect textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+    color: whitesmoke;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+.btn {
+    /* width: 40%;
+    background: #111;*/
+    padding: 15px 20px;
+    text-align: center;
+    color: 30295a;
+    font-weight: 600;
+    margin: 5px;
+    font-size: 90%;
+    border: transparent;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer; 
+}
+      
+.btn:hover {
+    opacity: 0.8;
+}
+
 @media (max-width:550px) {
     .info {
         display:inline-block;
@@ -209,7 +263,7 @@ body{
         border-radius: 25px 0;
     }  
     .flybox ol{
-        font-size: 50%;
+        font-size: 60%;
     }
 }
 
