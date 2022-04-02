@@ -63,9 +63,9 @@ body{
 }
     /* } Скрыть чекбокс */
 
-/* .flytabs div{
+.flytabs div{
     display: none;
- } Скрыть всплывающие окна */
+ } /* Скрыть всплывающие окна */
 
 .skills {
     display: block;
