@@ -4,7 +4,7 @@ body{
     font: normal 150%  'nunito', sans-serif;
     color: #edf2f3;
     background: #edf2f3;
-    background-image: url(поле3.png),url(звезды2.jpg);
+    background-image: url(горы4.png),url(звезды2.jpg);
     background-size:100% 100%, 100%;
     background-attachment: fixed, scroll;
     /* background-repeat: no-repeat; */
@@ -40,13 +40,16 @@ background: transparent;
 }
 
 .img:hover {
-width: 300%;
-transition: all 10s ease-in-out;
-transform: rotate(10turn);
+transition: all .8s ease-in-out;
+transform: rotate(1.9turn);
+border-radius: 200px;
+width: 200px;
+height: 200px;
+size: 200%;
 }
 
 .contacts:hover{
     /* width: 50px; */
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
     transform: rotate(1turn); 
 }
